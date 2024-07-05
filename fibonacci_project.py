@@ -1,7 +1,7 @@
 from pywebio.input import input, FLOAT
 from pywebio.output import put_text
 
-FIRST VERSION
+#FIRST VERSION
 class SampleFibonacci:
     def __init__(self):
         self.additive1=0
@@ -25,8 +25,8 @@ class SampleFibonacci:
             
 
 
-# for i in SampleFibonacci():
-#     put_text(i)
+for i in SampleFibonacci():
+    put_text(i)
 
 #SECOND VERSION -> does not stop, infinitive
 # class SampleFibonacci:
